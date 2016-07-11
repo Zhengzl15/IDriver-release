@@ -34,16 +34,19 @@ import project.idriver.ui.WheelView;
  * Created by ryan_wu on 16/1/27.
  */
 public class CustomMapUtil extends View implements View.OnClickListener{
-    private Canvas wCanvas;
-    private ArrayList<Coordinate> coords = new ArrayList<Coordinate>();
+    /**
+     * custom map
+     * */
+    private Canvas wCanvas; // canvas to draw route and start, end points
+    private ArrayList<Coordinate> coords = new ArrayList<Coordinate>();  // store route coordinate
     private ArrayList<String> options = new ArrayList<String>();           //起终点选项
-    private Coordinate carGPS;
-    private Paint mapPaint;
-    private Paint carPaint;
-    private Paint wordPaint;
-    private WheelView startWheel;
-    private WheelView endWheel;
-    private double maxX = Double.MIN_VALUE;
+    private Coordinate carGPS;  // realtime car coordinate
+    private Paint mapPaint;  // map paint setting
+    private Paint carPaint;  // car paint setting
+    private Paint wordPaint;  // word paint setting
+    private WheelView startWheel;  // wheelview to select start point
+    private WheelView endWheel;  // wheelview to select end point
+    private double maxX = Double.MIN_VALUE;  // to detect the border of route
     private double minX = Double.MAX_VALUE;
     private double maxY = Double.MIN_VALUE;
     private double minY = Double.MAX_VALUE;
@@ -62,6 +65,9 @@ public class CustomMapUtil extends View implements View.OnClickListener{
     // handle message
     private ZmqService mZmqService;
     private final Handler mZmqHandler = new Handler() {
+        /**
+         * handle the realtime car gps
+         */
         @Override
         public void handleMessage(Message msg) {
             switch (msg.what) {
@@ -83,6 +89,9 @@ public class CustomMapUtil extends View implements View.OnClickListener{
     };
 
     public CustomMapUtil(Context context) {
+        /**
+         * constructor
+         */
         super(context);
         loadMapData();
         setPaint();
@@ -91,6 +100,9 @@ public class CustomMapUtil extends View implements View.OnClickListener{
     }
 
     public void setWheel(WheelView startWheel, WheelView endWheel) {
+        /**
+         * fill wheel with selections
+         * */
         this.startWheel = startWheel;
         this.endWheel = endWheel;
         this.startWheel.setOffset(1);
@@ -103,6 +115,10 @@ public class CustomMapUtil extends View implements View.OnClickListener{
 
     @Override
     protected void onDraw(Canvas canvas) {
+        /**
+         * entrance to draw customer map
+         * initialize canvas
+         */
         super.onDraw(canvas);
         this.wCanvas = canvas;
         if(coords != null && coords.size() > 0) {
@@ -111,6 +127,9 @@ public class CustomMapUtil extends View implements View.OnClickListener{
     }
 
     public void drawDrive() {
+        /**
+         * draw route and car
+         * */
         invalidate();    //清除画布
         wCanvas.drawColor(CANVAS_BACKGROUND_COLOR);  //设置背景颜色
         drawCustomMap();
@@ -118,6 +137,10 @@ public class CustomMapUtil extends View implements View.OnClickListener{
     }
 
     private void drawCustomMap() {
+        /**
+         * fill route with points
+         *
+         * */
         for(Coordinate coord : coords) {
             double coordx = transCoordX(coord.getCoordX());
             double coordy = transCoordY(coord.getCoordY());
@@ -140,7 +163,9 @@ public class CustomMapUtil extends View implements View.OnClickListener{
     }
 
     private void loadMapData() {
-        // init
+        /**
+         * read route data from file
+         * */
         coords.clear();
         options.clear();
         maxX = Double.MIN_VALUE;
@@ -184,6 +209,9 @@ public class CustomMapUtil extends View implements View.OnClickListener{
     }
 
     private void setPaint() {
+        /**
+         * set bursh
+         * */
         setMapPaint();
         setCarPaint();
         setWordPaint();
@@ -219,6 +247,9 @@ public class CustomMapUtil extends View implements View.OnClickListener{
     }
 
     private double transCoordX(double coordx) {
+        /**
+         * transform gps x to canvas coordinate
+         */
         int width = wCanvas.getWidth() - 2 * MAP_PADDING;
         if (width <= 2 * MAP_PADDING) {
             return wCanvas.getWidth() * (coordx - minX) / (maxX - minX);
@@ -227,6 +258,9 @@ public class CustomMapUtil extends View implements View.OnClickListener{
     }
 
     private double transCoordY(double coordy) {
+        /**
+         * transform gps y to canvas coordinate
+         */
         int height = wCanvas.getHeight() - 2 * MAP_PADDING;
         if (height <= 2 * MAP_PADDING) {
             return wCanvas.getHeight() * (1 - (coordy - minY) / (maxY - minY));
@@ -249,6 +283,10 @@ public class CustomMapUtil extends View implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
+        /**
+         * set the start and end points
+         * inform the server
+         */
         switch (v.getId()) {
             case R.id.id_custom_map_setline_button:
                 LineBean line = new LineBean();
@@ -272,6 +310,9 @@ public class CustomMapUtil extends View implements View.OnClickListener{
 }
 
 class Coordinate {
+    /**
+     * private class to store gps coordinate
+     */
     private double coordX;
     private double coordY;
     private String coordType;

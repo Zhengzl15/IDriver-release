@@ -24,24 +24,33 @@ import project.idriver.map.NaviMapUtil;
  */
 public class NaviMapFragment extends Fragment implements AMapNaviViewListener {
     /**
-     *
+     * the fragment for navigation
      */
     private View mapLayout;                   // see on the Internet
-    private AMapNavi mAMapNavi;
-    private AMapNaviView mAMapNaviView;
-    private NaviMapUtil naviMapUtil;
+    private AMapNavi mAMapNavi;               // navigation
+    private AMapNaviView mAMapNaviView;       // navigation map
+    private NaviMapUtil naviMapUtil;          // the navigation listener implement
 
     public NaviMapFragment () {
+        /**
+         * constructor
+         */
         naviMapUtil = new NaviMapUtil();
     }
 
     public void setActivity(Activity activity) {
+        /**
+         * transfer activity to naviMapUtil
+         */
         naviMapUtil.setMainActivity(activity);
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        /**
+         * initialize navigation map view
+         */
         if(mapLayout == null){
             mapLayout = inflater.inflate(R.layout.navi_map_fragment, container, false);
             mAMapNaviView = (AMapNaviView) mapLayout.findViewById(R.id.id_navi_fragment_navi_map_view);
@@ -54,10 +63,14 @@ public class NaviMapFragment extends Fragment implements AMapNaviViewListener {
         return mapLayout;
     }
 
+
     public void startNavi() {
         naviMapUtil.startNavi();
     }
 
+    /**
+     * transfer arguments to naviMapUtil
+     */
     public void setAMapNavi(AMapNavi aMapNavi) {
         mAMapNavi = aMapNavi;
         naviMapUtil.setAMapNavi(aMapNavi);

@@ -18,19 +18,29 @@ import project.idriver.ui.GlobalFragment;
  * Date:   16/2/12
  */
 public class WAMapLoaction implements AMapLocationListener {
-    private AMapLocationClient mAMapLoactionClient = null;
-    private AMapLocationClientOption mLocationOption = null;
-    private NaviLatLng location;
+    /**
+     * to detect the gps coordinate of the device
+     * through wifi, gps and phone base station
+     */
+    private AMapLocationClient mAMapLoactionClient = null;  // client to locate device
+    private AMapLocationClientOption mLocationOption = null;  // locate option
+    private NaviLatLng location;  // the loaction
     private GlobalFragment mGlobalFragment = null;
-    private boolean isFirst = true;
+    private boolean isFirst = true;  // just for the start of the software
 
     public WAMapLoaction(Context context) {
+        /**
+         * constructor
+         */
         mAMapLoactionClient = new AMapLocationClient(context);
         setmLocationOption();
         mAMapLoactionClient.setLocationListener(this);
         mAMapLoactionClient.startLocation();
     }
     public void setGlobalFragment(GlobalFragment globalFragment) {
+        /**
+         * for make the view to the current position
+         */
         mGlobalFragment = globalFragment;
     }
 
@@ -54,6 +64,9 @@ public class WAMapLoaction implements AMapLocationListener {
 
     @Override
     public void onLocationChanged(AMapLocation amapLocation) {
+        /**
+         * initialize the map view when the java detect the device location
+         */
         if (amapLocation != null) {
             if (amapLocation.getErrorCode() == 0) {
                 Double latitude = amapLocation.getLatitude();
@@ -78,6 +91,9 @@ public class WAMapLoaction implements AMapLocationListener {
     }
 
     public void destroyLocation() {
+        /**
+         * for upper level onDestroy
+         */
         mAMapLoactionClient.onDestroy();
     }
 }

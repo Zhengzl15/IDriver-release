@@ -40,13 +40,16 @@ import project.idriver.nets.ZmqService;
  * Created by ryan_wu on 16/1/26.
  */
 public class NaviMapUtil implements AMapNaviListener {
-    private Activity mainActivity;
-    private AMapNavi mAMapNavi;
-    private AMap aMap;
-    private ProgressDialog progDialog;
-    private NaviLatLng location = null;
-    private NaviLatLng endPoint;
-    private LatLng Beijing = new LatLng(39.904211, 116.407395);
+    /**
+     * control navigation
+     */
+    private Activity mainActivity;  // to make tips
+    private AMapNavi mAMapNavi;  // AMapNavi instance
+    private AMap aMap;  // AMap instance
+    private ProgressDialog progDialog;  // progress dialog
+    private NaviLatLng location = null;  // start point location
+    private NaviLatLng endPoint;  // destination
+    private LatLng Beijing = new LatLng(39.904211, 116.407395);  // for emulation
     private final static String TAG = "simple navi";
     private static final String SEND_MSG_ERR = "导航信息发送失败,请检查连接";
     private final static String LOCATION_ERR = "定位错误,请检查网络和GPS";
@@ -61,14 +64,24 @@ public class NaviMapUtil implements AMapNaviListener {
     };
 
     public NaviMapUtil() {
+        /**
+         *  set message handler
+         * */
         mZmqService = ZmqService.getInstance(mZmqHandler);
     }
 
     public void setMainActivity(Activity activity) {
+        /**
+         * set activity to make toast
+         */
         mainActivity = activity;
     }
 
     public void setAMapNavi(AMapNavi aMapNavi) {
+        /**
+         * set AMapNavi instance
+         * and set navigation listener
+         */
         mAMapNavi = aMapNavi;
         mAMapNavi.setAMapNaviListener(this);
         mAMapNavi.setEmulatorNaviSpeed(100);
@@ -79,14 +92,24 @@ public class NaviMapUtil implements AMapNaviListener {
     }
 
     public void setLocation(NaviLatLng location) {
+        /**
+         * set start location
+         */
         this.location = location;
     }
 
     public void setEndPoint(NaviLatLng endPoint) {
+        /**
+         * set end point
+         */
         this.endPoint = endPoint;
     }
 
     public void startNavi(){
+        /**
+         * judge the start and end point
+         * calculate route
+         */
         showProgressDialog();
         List<NaviLatLng> endList = new ArrayList<NaviLatLng>();
         endList.add(endPoint);
@@ -239,7 +262,9 @@ public class NaviMapUtil implements AMapNaviListener {
 
     @Override
     public void onNaviInfoUpdate(NaviInfo naviInfo) {
-        // 导航引导信息回调 naviinfo 是导航信息类。
+        /** 导航引导信息回调 naviinfo 是导航信息类。
+         * and sent the navigation to server
+         */
         Log.i(TAG, "update navi info .................................");
         Log.i(TAG, String.format("%dm turn: %d", naviInfo.getCurStepRetainDistance(), naviInfo.getIconType()));
         Log.i(TAG, String.format("road %s --> %s", naviInfo.getCurrentRoadName(), naviInfo.getNextRoadName()));
