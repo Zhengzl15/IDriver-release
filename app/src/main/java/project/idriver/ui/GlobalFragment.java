@@ -35,18 +35,25 @@ import project.idriver.map.WAMapLoaction;
  */
 public class GlobalFragment extends Fragment implements
         AMap.OnMarkerClickListener, AMap.InfoWindowAdapter, OnToggleStateChangedListener {
-    private View mapLayout;                   // see on the Internet
-    private AMap mAMap;
-    private TextureMapView mMapView;
-    private GlobalMapSearchFragment globalMapSearchFragment;
-    private NaviMapFragment mNaviMapFragment;
-    private CustomMapFragment mCustomMapFragment;
-    private WAMapLoaction mAMapLocation;
-    private AMapNavi mAMapNavi;
+    /*
+     * the top layer of navigation map, including search fragment and normal map fragment
+     * */
 
-    private final static String TAG = "global fragment";
+    private View mapLayout;                                    // see on the Internet
+    private AMap mAMap;                                        // basic map
+    private TextureMapView mMapView;                           // basic map view
+    private GlobalMapSearchFragment globalMapSearchFragment;   // search fragment for search
+    private NaviMapFragment mNaviMapFragment;                  // navigation map fragment
+    private CustomMapFragment mCustomMapFragment;              // custom map fragment
+    private WAMapLoaction mAMapLocation;                       // to locate the current device
+    private AMapNavi mAMapNavi;                                // navigation instance
+
+    private final static String TAG = "global fragment";       // for debug log
 
     public GlobalFragment(){
+        /*
+         * constructor of GlobalFragment
+         * */
         globalMapSearchFragment = new GlobalMapSearchFragment();
         globalMapSearchFragment.setMapNaviFragment(this);
     }
@@ -54,6 +61,9 @@ public class GlobalFragment extends Fragment implements
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        /*
+         * initialize global map view, including search view and basic map view
+         * */
         if(mapLayout == null){
             mapLayout = inflater.inflate(R.layout.global_fragment, container, false);
             mMapView = (TextureMapView) mapLayout.findViewById(R.id.id_navi_fragment_basic_map_view);
@@ -71,6 +81,8 @@ public class GlobalFragment extends Fragment implements
             // location
             mAMapLocation = new WAMapLoaction(getActivity().getApplicationContext());
             mAMapLocation.setGlobalFragment(this);
+
+            // navigation
             mAMapNavi = AMapNavi.getInstance(getActivity().getApplicationContext());
         }else if (mapLayout.getParent() != null){
             ((ViewGroup) mapLayout.getParent()).removeView(mapLayout);
@@ -79,11 +91,18 @@ public class GlobalFragment extends Fragment implements
     }
 
     public void moveToLocation(LatLng location) {
+        /*
+         * move the current view to the device GPS loaction
+         * for WAMapLoaction to initialize the start view
+         * */
         CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(location, 10);
         mAMap.animateCamera(cameraUpdate);
     }
 
     private void startNavi(Marker marker) {
+        /*
+         * start navigation when user click the <start navi> button
+         * */
         Log.i(TAG, "start navi");
         mAMap.clear();
         mNaviMapFragment = new NaviMapFragment();
@@ -130,6 +149,10 @@ public class GlobalFragment extends Fragment implements
     }
 
     public void setPoiResult(List<PoiItem> poiResult){
+        /*
+         * add the search result to the basic map
+         * for search fragment
+         * */
         mAMap.clear();// 清理之前的图标
         PoiOverlay poiOverlay = new PoiOverlay(mAMap, poiResult);
         poiOverlay.removeFromMap();
@@ -139,6 +162,10 @@ public class GlobalFragment extends Fragment implements
 
     @Override
     public View getInfoWindow(final Marker marker) {
+        /*
+         * open the information window above the search result marker
+         * including one <start navi> button
+         * */
         View view = getActivity().getLayoutInflater().inflate(R.layout.navi_info_window, null);
 
         TextView title = (TextView) view.findViewById(R.id.id_navi_info_window_title);
@@ -168,6 +195,9 @@ public class GlobalFragment extends Fragment implements
 
     @Override
     public void onToggleStateChanged(boolean state) {
+        /*
+         * switch between custom map and navigation map
+         * */
         FragmentManager fm = getChildFragmentManager();
         FragmentTransaction transaction = fm.beginTransaction();
         if (((SlideButton) getActivity().findViewById(R.id.map_choose_btn)).isToggleState()) {
