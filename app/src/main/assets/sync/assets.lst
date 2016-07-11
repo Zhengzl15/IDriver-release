@@ -1,0 +1,12 @@
+digits.gram
+menu.gram
+test.dic
+zh_broadcastnews_ptm256_8000/feat.params
+zh_broadcastnews_ptm256_8000/mdef
+zh_broadcastnews_ptm256_8000/means
+zh_broadcastnews_ptm256_8000/mixture_weights
+zh_broadcastnews_ptm256_8000/noisedict
+zh_broadcastnews_ptm256_8000/sendump
+zh_broadcastnews_ptm256_8000/transition_matrices
+zh_broadcastnews_ptm256_8000/variances
+zh_broadcastnews_utf8.dic

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:paddingLeft="15px"
+    android:paddingRight="0px"
+    android:background="@drawable/state_bg_170x640_f4"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30px"
+        android:layout_height="60px"
+        android:orientation="horizontal" >
+        <TextView
+            android:text="AUTO DRIVING"
+            android:textColor="#333333"
+            android:textSize="12px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="50px"
+            android:layout_height="40px"
+            android:layout_marginLeft="15px"/>
+        <ImageView
+            android:background="@drawable/light_grey_48"
+            android:layout_gravity="center"
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:layout_marginLeft="10px"
+            android:id="@+id/autoDriving"/>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:orientation="horizontal" >
+        <TextView
+            android:text="GPS"
+            android:textColor="#333333"
+            android:textSize="12px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="50px"
+            android:layout_height="40px"
+            android:layout_marginLeft="15px" />
+        <ImageView
+            android:background="@drawable/light_grey_48"
+            android:layout_gravity="center"
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:layout_marginLeft="10px"
+            android:id="@+id/gps"/>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:orientation="horizontal" >
+        <TextView
+            android:text="RADAR"
+            android:textColor="#333333"
+            android:textSize="12px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="50px"
+            android:layout_height="40px"
+            android:layout_marginLeft="15px" />
+        <ImageView
+            android:background="@drawable/light_grey_48"
+            android:layout_gravity="center"
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:layout_marginLeft="10px"
+            android:id="@+id/radar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:orientation="horizontal" >
+        <TextView
+            android:text="LIDAR"
+            android:textColor="#333333"
+            android:textSize="12px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="50px"
+            android:layout_height="40px"
+            android:layout_marginLeft="15px" />
+        <ImageView
+            android:background="@drawable/light_grey_48"
+            android:layout_gravity="center"
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:layout_marginLeft="10px"
+            android:id="@+id/lidar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:text="CAMERA"
+            android:textColor="#333333"
+            android:textSize="12px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="50px"
+            android:layout_height="40px"
+            android:layout_marginLeft="15px" />
+        <ImageView
+            android:background="@drawable/light_grey_48"
+            android:layout_gravity="center"
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:layout_marginLeft="10px"
+            android:id="@+id/camera"/>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:orientation="horizontal" >
+        <TextView
+            android:text="EPS"
+            android:textColor="#333333"
+            android:textSize="12px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="50px"
+            android:layout_height="40px"
+            android:layout_marginLeft="15px" />
+        <ImageView
+            android:background="@drawable/light_grey_48"
+            android:layout_gravity="center"
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:layout_marginLeft="10px"
+            android:id="@+id/eps"/>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:orientation="horizontal" >
+        <TextView
+            android:text="EVB"
+            android:textColor="#333333"
+            android:textSize="12px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="50px"
+            android:layout_height="40px"
+            android:layout_marginLeft="15px" />
+        <ImageView
+            android:background="@drawable/light_grey_48"
+            android:layout_gravity="center"
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:layout_marginLeft="10px"
+            android:id="@+id/evb"/>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal" >
+        <ImageView
+            android:id="@+id/steering_wheel_btn"
+            android:background="@drawable/steering_grey_96"
+            android:layout_gravity="top"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_margin="4px" />
+    </LinearLayout>
+
+</LinearLayout>

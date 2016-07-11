@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="idriver_cmd">idriver command</string>
+    <string name="app_name">IDriver</string>
+
+
+
+    <string name="done_label" msgid="7007948707597430919">"完成"</string>
+
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="app_id">输入您讯飞的appid</string>
+
+
+
+    <string name="sans_serif" translatable="false">sans-serif</string>
+
+    <string name="steering_placeholder" translatable="false">--</string>
+    <string name="steering_separator" translatable="false">:</string>
+
+    <string name="radial_numbers_typeface" translatable="false">sans-serif</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!--
+         Content description for the hour selector in the time picker, which displays
+         selectable hours of the day along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <!--
+         Content description for the minute selector in the time picker, which displays
+         selectable five-minute intervals along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+</resources>

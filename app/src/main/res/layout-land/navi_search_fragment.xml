@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_height="50dp"
+    android:background="@android:color/white"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/id_navi_search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="6.0dip"
+        android:background="@android:color/transparent"
+        android:src="@drawable/navi_map_search_btn" />
+
+    <AutoCompleteTextView
+        android:id="@+id/id_navi_search_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/id_navi_search_button"
+        android:layout_marginTop="6dip"
+        android:layout_marginLeft="5dip"
+        android:layout_toLeftOf="@id/id_navi_search_button"
+        android:dropDownVerticalOffset="1dip"
+        android:imeOptions="actionDone"
+        android:hint="输入终点"
+        android:maxLength="20"
+        android:paddingRight="37dip"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+</RelativeLayout>

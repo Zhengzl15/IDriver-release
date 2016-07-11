@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/logo_icon.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/mipmap-hdpi/logo_icon.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]

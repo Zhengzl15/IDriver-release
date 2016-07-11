@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="140px"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/traffic_sign"
+            android:src="@drawable/stright_96x96"
+            android:rotation="0"
+            android:layout_height="200px"
+            android:layout_width="140px"
+            android:padding="5px">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text_area_1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:paddingLeft="10px"
+            android:gravity="top"
+            android:text=""
+            android:textColor="#333333" >
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Road"
+        android:layout_width="300px"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <project.idriver.ui.LocalView
+            android:id="@+id/localView"
+            android:background="@drawable/road_380_550_s1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </project.idriver.ui.LocalView>
+
+
+        <!--<ImageView-->
+        <!--android:id="@+id/YellowCar"-->
+        <!--android:src="@drawable/yellow_car_48x48"-->
+        <!--android:layout_width="50px"-->
+        <!--android:layout_height="50px"-->
+        <!--android:layout_marginTop="150px"-->
+        <!--android:layout_gravity="center"/>-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/flag"-->
+        <!--android:src="@drawable/left_100x100"-->
+        <!--android:layout_width="100px"-->
+        <!--android:layout_height="100px"-->
+        <!--android:layout_marginTop="120px"-->
+        <!--android:layout_marginLeft="60px"-->
+        <!--android:layout_gravity="left"/>-->
+        <!--<ImageView-->
+        <!--android:id="@+id/RedCar"-->
+        <!--android:src="@drawable/red_car_48x48"-->
+        <!--android:layout_width="50px"-->
+        <!--android:layout_height="50px"-->
+        <!--android:layout_marginTop="0px"-->
+        <!--android:layout_gravity="center"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="140px"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/traffic_light"
+            android:src="@drawable/traffic_light_96x96_all"
+            android:layout_height="200px"
+            android:layout_width="140px"
+            android:padding="5px">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text_area_2"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:paddingLeft="10px"
+            android:gravity="top"
+            android:text=""
+            android:textColor="#333333" >
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

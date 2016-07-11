@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/layout-land/custom_map_fragment.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/layout-land/custom_map_fragment.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/layout-land/state_fragment.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/layout-land/state_fragment.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/layout-land/navi_map_fragment.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/layout-land/navi_map_fragment.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/layout-land/navi_search_fragment.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/layout-land/navi_search_fragment.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/layout-land/logo_fragment.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/layout-land/logo_fragment.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/layout-land/steering_picker_dialog.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/layout-land/steering_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/layout-land/navi_info_window.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/layout-land/navi_info_window.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/layout-land/local_fragment.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/layout-land/local_fragment.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/layout-land/steering_header_label.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/layout-land/steering_header_label.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/layout-land/navi_search_tips.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/layout-land/navi_search_tips.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/layout-land/control_fragment.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/layout-land/control_fragment.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/layout-land/logo_page.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/layout-land/logo_page.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/layout-land/global_fragment.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/layout-land/global_fragment.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/layout-land/activity_ui.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/layout-land/activity_ui.xml"
+    }
+]

@@ -1,0 +1,16 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> = 你好    |
+          打开  |
+          谷歌   |
+          搜索  |
+          傻子 |
+          播放 |
+          浏览器 |
+          音乐 |
+          抬头 |
+          低头;
+
+public <digits> = <digit>+;

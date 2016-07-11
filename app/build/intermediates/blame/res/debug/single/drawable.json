@@ -1,0 +1,478 @@
+[
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bd_asr_popup_bg.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bd_asr_popup_bg.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/roadblock_48.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/roadblock_48.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/stright_96x96.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/stright_96x96.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/voice_off_100x70.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/voice_off_100x70.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/right_100x100.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/right_100x100.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_left_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_left_pressed.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/traffic_light_96x96_none.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/traffic_light_96x96_none.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/voice_btn.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/voice_btn.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/navi_map_search_btn.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/navi_map_search_btn.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/traffic_light_96.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/traffic_light_96.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_right_greendeep_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_right_greendeep_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/traffic_light_96x96_green.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/traffic_light_96x96_green.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_right_redlight_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_right_redlight_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/control_off_100x70.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/control_off_100x70.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/state_bg_170x640_f4.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/state_bg_170x640_f4.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_orangelight_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_orangelight_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_digital_bg.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_digital_bg.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_recognizing.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_recognizing.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/start_grey_100x100.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/start_grey_100x100.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/parking_green_100x100.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/parking_green_100x100.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/turn_around_96x96.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/turn_around_96x96.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/parking_btn.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/parking_btn.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/traffic_light_96x96_yellow.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/traffic_light_96x96_yellow.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/navi_map_start_marker.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/navi_map_start_marker.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/control_on_100x70.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/control_on_100x70.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_right_greenlight_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_right_greenlight_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_digital_deep_bg.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_digital_deep_bg.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/red_car_48x48.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/red_car_48x48.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/speeddown_grey_100x100.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/speeddown_grey_100x100.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_right_orangelight_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_right_orangelight_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/map_choose_front_196_70_sharp2ci.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/map_choose_front_196_70_sharp2ci.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_redlight_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_redlight_pressed.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/left_up_96x96.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/left_up_96x96.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/little_circle_red_10x10.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/little_circle_red_10x10.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_right_orangedeep_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_right_orangedeep_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/turn_96x96.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/turn_96x96.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/control_btn.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/control_btn.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_orangelight_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_orangelight_pressed.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/voice_on_100x70.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/voice_on_100x70.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_reddeep_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_reddeep_pressed.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/traffic_light_96x96_all.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/traffic_light_96x96_all.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/turn_left_96x96.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/turn_left_96x96.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/speedup_btn.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/speedup_btn.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/traffic_light_96x96_red.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/traffic_light_96x96_red.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_right_orangelight_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_right_orangelight_pressed.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/turn_right_96x96.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/turn_right_96x96.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/roadblock_48x48.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/roadblock_48x48.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/parking_grey_100x100.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/parking_grey_100x100.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/map_choose_bg_350x70_sharp2ci.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/map_choose_bg_350x70_sharp2ci.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_greenlight_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_greenlight_pressed.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/left_100x100.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/left_100x100.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_greenlight_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_greenlight_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_orangedeep_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_orangedeep_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/walking_48.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/walking_48.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/walker_48x48.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/walker_48x48.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/road_380_550_s1.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/road_380_550_s1.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_left_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_left_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/light_grey_48.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/light_grey_48.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/steering_grey_96.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/steering_grey_96.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/little_circle_green_10x10.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/little_circle_green_10x10.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/icon.jpg",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/icon.jpg"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_right_redlight_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_right_redlight_pressed.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/speeddown_btn.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/speeddown_btn.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/light_green_48.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/light_green_48.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/yellow_car_48x48.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/yellow_car_48x48.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_right_greendeep_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_right_greendeep_pressed.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/right_up_96x96.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/right_up_96x96.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_left_deep_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_left_deep_pressed.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/global_ex_500x640.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/global_ex_500x640.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_right_reddeep_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_right_reddeep_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/speedup_green_100x100.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/speedup_green_100x100.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/logo_1280x50.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/logo_1280x50.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/start_green_100x100.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/start_green_100x100.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_redlight_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_redlight_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_right_reddeep_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_right_reddeep_pressed.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_recognizing_deep.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_recognizing_deep.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/logo_page_text_1.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/logo_page_text_1.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_right_greenlight_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_right_greenlight_pressed.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/start_btn.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/start_btn.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_orangedeep_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_orangedeep_pressed.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/road_380_550_s2.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/road_380_550_s2.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_reddeep_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_reddeep_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_greendeep_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_greendeep_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_right_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_right_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/stop_96x96.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/stop_96x96.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/speedup_grey_100x100.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/speedup_grey_100x100.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_left_deep_normal.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_left_deep_normal.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/speeddown_green_100x100.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/speeddown_green_100x100.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/zzl/Downloads/IDriver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_pressed.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_right_orangedeep_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_right_orangedeep_pressed.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_right_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_right_pressed.9.png"
+    },
+    {
+        "merged": "/Users/zzl/Downloads/IDriver/app/build/intermediates/res/merged/debug/drawable/bdspeech_btn_greendeep_pressed.9.png",
+        "source": "/Users/zzl/Downloads/IDriver/app/src/main/res/drawable/bdspeech_btn_greendeep_pressed.9.png"
+    }
+]

@@ -1,0 +1,5 @@
+#JSGF V1.0;
+
+grammar menu;
+
+public <item> = 你好 | 打开 | 抬头 | 启动 | 停止 | 加速 | 减速;

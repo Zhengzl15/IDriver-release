@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/allFlipper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/splash_Layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/logo_page_text_1"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f4f4f4"
+        tools:context="com.apple.idriver_ui_v1.UIActivity">
+
+        <fragment
+            android:name="project.idriver.ui.LogoFragment"
+            android:id="@+id/logo_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:layout_marginBottom="5px">
+        </fragment>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="600px" >
+
+            <fragment
+                android:name="project.idriver.ui.LocalFragment"
+                android:id="@+id/local_fragment"
+                android:layout_width="580px"
+                android:layout_height="600px"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px">
+            </fragment>
+
+            <fragment
+                android:name="project.idriver.ui.StateFragment"
+                android:id="@+id/state_fragment"
+                android:layout_width="170px"
+                android:layout_height="600px"
+                android:layout_marginRight="10px">
+            </fragment>
+
+            <FrameLayout
+                android:id="@+id/id_navi_framelayout"
+                android:layout_width="match_parent"
+                android:layout_height="600px"
+                android:layout_marginRight="10px"/>
+
+        </LinearLayout>
+
+        <fragment
+            android:name="project.idriver.ui.ControlFragment"
+            android:id="@+id/control_fragment"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5px"
+            android:layout_height="100px" >
+        </fragment>
+
+    </LinearLayout>
+
+</ViewFlipper>

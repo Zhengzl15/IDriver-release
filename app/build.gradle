@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+    defaultConfig {
+        applicationId 'project.idriver'
+        minSdkVersion 17
+        targetSdkVersion 18
+        versionCode 11
+        versionName "1.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile files('libs/AMap_3DMap_V3.1.1_20151216.jar')
+    compile files('libs/AMap_Location_V2.2.0_20151222.jar')
+    compile files('libs/AMap_Navi_v1.6.0_20151229.jar')
+    compile files('libs/AMap_Search_V2.8.0_20160105.jar')
+    compile files('libs/Volley.jar')
+    compile files('libs/gson-2.5.jar')
+    compile files('libs/pocketsphinx-android-5prealpha-nolib.jar')
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile files('libs/com.baidu.tts_2.2.1.20160122_b23aaf0_release.jar')
+    compile files('libs/galaxy-v2.0.jar')
+}

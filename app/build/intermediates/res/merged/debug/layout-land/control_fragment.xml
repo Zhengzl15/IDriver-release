@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="260px"
+        android:layout_height="match_parent"
+        android:paddingLeft="30px"
+        android:orientation="horizontal" >
+
+        <!--<ImageView-->
+        <!--android:src="@mipmap/voice_control_grey_80x80"-->
+        <!--android:layout_gravity="top"-->
+        <!--android:layout_width="100px"-->
+        <!--android:layout_height="100px"-->
+        <!--android:layout_margin="10px" />-->
+
+        <ToggleButton
+            android:id="@+id/voice_btn"
+            android:layout_width="120px"
+            android:layout_height="100px"
+            android:layout_marginTop="20px"
+            android:background="#ffffff"
+            android:button="@drawable/voice_btn"
+            android:text=""
+            android:textOn=""
+            android:textOff=""
+            android:checked="false" />
+
+        <!--<Button-->
+        <!--android:background="@mipmap/control_grey_80x80"-->
+        <!--android:layout_gravity="top"-->
+        <!--android:layout_width="100px"-->
+        <!--android:layout_height="100px"-->
+        <!--android:layout_margin="10px" />-->
+
+        <ToggleButton
+            android:id="@+id/control_btn"
+            android:layout_width="120px"
+            android:layout_height="100px"
+            android:layout_marginTop="20px"
+            android:background="#ffffff"
+            android:button="@drawable/control_btn"
+            android:text=""
+            android:textOn=""
+            android:textOff=""
+            android:checked="false" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="520px"
+        android:paddingLeft="30px"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <!--<Button-->
+        <!--android:id="@+id/start_btn"-->
+        <!--android:button="@drawable/start_btn"-->
+        <!--android:background="@mipmap/start_green_80x80"-->
+        <!--android:layout_gravity="top"-->
+        <!--android:layout_width="100px"-->
+        <!--android:layout_height="100px"-->
+        <!--android:layout_margin="10px" />-->
+
+        <ToggleButton
+            android:id="@+id/start_btn"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:background="#ffffff"
+            android:button="@drawable/start_btn"
+            android:text=""
+            android:textOn=""
+            android:textOff=""
+            android:checked="false"
+            android:clickable="false"/>
+
+        <!--<Button-->
+        <!--android:id="@+id/btn_pause"-->
+        <!--android:background="@mipmap/stop_green_80x80"-->
+        <!--android:layout_gravity="top"-->
+        <!--android:layout_width="100px"-->
+        <!--android:layout_height="100px"-->
+        <!--android:layout_margin="10px" />-->
+
+        <ToggleButton
+            android:id="@+id/parking_btn"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:background="#ffffff"
+            android:button="@drawable/parking_btn"
+            android:text=""
+            android:textOn=""
+            android:textOff=""
+            android:checked="false"
+            android:clickable="false"/>
+
+        <!--<Button-->
+        <!--android:id="@+id/btn_speedup"-->
+        <!--android:background="@mipmap/speed_up_green_80x80"-->
+        <!--android:layout_gravity="top"-->
+        <!--android:layout_width="100px"-->
+        <!--android:layout_height="100px"-->
+        <!--android:padding="10px"-->
+        <!--android:layout_margin="10px"/>-->
+
+        <ImageButton
+            android:id="@+id/speedup_btn"
+            android:src="@drawable/speedup_grey_100x100"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginLeft="20px"
+            android:background="#ffffff"
+            android:clickable="false"/>
+
+        <!--<Button-->
+        <!--android:id="@+id/btn_speeddown"-->
+        <!--android:background="@mipmap/speed_down_green_80x80"-->
+        <!--android:layout_gravity="top"-->
+        <!--android:layout_width="100px"-->
+        <!--android:layout_height="100px"-->
+        <!--android:layout_margin="10px"/>-->
+
+        <ImageButton
+            android:id="@+id/speeddown_btn"
+            android:src="@drawable/speeddown_grey_100x100"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginLeft="10px"
+            android:background="#ffffff"
+            android:clickable="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="500px"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <!--<ImageView-->
+        <!--android:src="@mipmap/original_map_green_80x80"-->
+        <!--android:layout_marginTop="10px"-->
+        <!--android:layout_width="100px"-->
+        <!--android:layout_height="100px" />-->
+
+        <!--<ToggleButton-->
+        <!--android:id="@+id/myTogBtn"-->
+        <!--android:layout_width="105px"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="23px"-->
+        <!--android:background="#bbbbbb"-->
+        <!--android:button="@drawable/toggle_btn"-->
+        <!--android:text=""-->
+        <!--android:textOn=""-->
+        <!--android:textOff=""-->
+        <!--android:checked="true" />-->
+
+        <project.idriver.ui.SlideButton
+            android:id="@+id/map_choose_btn"
+            android:layout_marginTop="20px"
+            android:layout_width="500px"
+            android:layout_height="100px" />
+
+        <!--<ImageView-->
+        <!--android:background="@mipmap/self_map_green_80x80"-->
+        <!--android:layout_marginTop="10px"-->
+        <!--android:layout_width="100px"-->
+        <!--android:layout_height="100px" />-->
+
+    </LinearLayout>
+
+</LinearLayout>
