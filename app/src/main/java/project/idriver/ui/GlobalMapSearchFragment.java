@@ -34,23 +34,32 @@ import project.idriver.R;
  */
 public class GlobalMapSearchFragment extends Fragment implements
         View.OnClickListener, TextWatcher, InputtipsListener, PoiSearch.OnPoiSearchListener{
-    private ImageButton searchImageButton;
-    private ProgressDialog progDialog;
-    private PoiSearch.Query endSearchQuery;
-    private AutoCompleteTextView endText;
-    private PoiResult endSearchResult;
-    private GlobalFragment globalFragment;
-    private String endStr;
+    /**
+     * search fragment run in background for search destination
+     */
+    private ImageButton searchImageButton;           // search image button
+    private ProgressDialog progDialog;               // progress dialog instance
+    private PoiSearch.Query endSearchQuery;          // destination search
+    private AutoCompleteTextView endText;            // suggestion for search box
+    private PoiResult endSearchResult;               // search results
+    private GlobalFragment globalFragment;           // upper fragment to show search result
+    private String endStr;                           // the string of destination
 
-    public GlobalMapSearchFragment(){}
+    public GlobalMapSearchFragment(){}               // constructor
 
     public void setMapNaviFragment(GlobalFragment globalFragment){
+        /**
+         * set the upper fragemnt, for show result
+         */
         this.globalFragment = globalFragment;
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        /**
+         * initial search box and search button
+         */
         View v = inflater.inflate(R.layout.navi_search_fragment, container, false);
 
         searchImageButton = (ImageButton) v.findViewById(R.id.id_navi_search_button);
@@ -62,6 +71,9 @@ public class GlobalMapSearchFragment extends Fragment implements
 
     @Override
     public void onClick(View v){
+        /**
+         * click to search and show the progress dialog
+         */
         endStr = endText.getText().toString().trim();
         if(endStr == null || endStr.length() == 0) {
             Toast.makeText(getActivity(), "请输入起点", Toast.LENGTH_LONG).show();
@@ -79,10 +91,10 @@ public class GlobalMapSearchFragment extends Fragment implements
         Log.i("simple search", "search button click!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
     }
 
-    /**
-     * 显示进度框
-     */
     private void showProgressDialog() {
+        /**
+        * show progress dialog
+        */
         if (progDialog == null)
             progDialog = new ProgressDialog(getActivity());
         progDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
@@ -93,11 +105,10 @@ public class GlobalMapSearchFragment extends Fragment implements
         Log.i("simple search", "show progress dialog!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
     }
 
-    /**
-     *
-     * 隐藏进度框
-     */
     public void dismissProgressDialog(){
+        /**
+        * dismiss progress dialog
+        */
         if (progDialog != null){
             progDialog.dismiss();
         }
@@ -106,6 +117,9 @@ public class GlobalMapSearchFragment extends Fragment implements
 
     @Override
     public void onGetInputtips(List<Tip> tipList, int rCode) {
+        /**
+         * callback function to get the search suggestions
+         */
         if (rCode == 0) {// 正确返回
             List<String> listString = new ArrayList<String>();
             for (int i = 0; i < tipList.size(); i++) {
@@ -119,6 +133,9 @@ public class GlobalMapSearchFragment extends Fragment implements
     }
     @Override
     public void onTextChanged(CharSequence s, int start, int before, int count) {
+        /**
+         * get the search suggestion when user typing
+         */
         String newText = s.toString().trim();
         InputtipsQuery inputquery = new InputtipsQuery(newText, "");
         Inputtips inputTips = new Inputtips(getActivity().getApplicationContext(), inputquery);
@@ -139,6 +156,9 @@ public class GlobalMapSearchFragment extends Fragment implements
 
     @Override
     public void onPoiSearched(PoiResult result, int rCode) {
+        /**
+         * get the search result and handle
+         */
         dismissProgressDialog();
         if(rCode == 0) {
             if (result != null && result.getQuery() != null){
@@ -173,6 +193,10 @@ public class GlobalMapSearchFragment extends Fragment implements
     }
 
     private void showSuggestCity(List<SuggestionCity> cities) {
+        /**
+         * the current don't have the destination
+         * show the city list may have the destination
+         */
         String infomation = "推荐城市\n";
         for (int i = 0; i < cities.size(); i++) {
             infomation += "城市名称:" + cities.get(i).getCityName() + "城市区号:"

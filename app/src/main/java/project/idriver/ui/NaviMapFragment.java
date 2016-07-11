@@ -23,6 +23,9 @@ import project.idriver.map.NaviMapUtil;
  * Date:   16/2/8
  */
 public class NaviMapFragment extends Fragment implements AMapNaviViewListener {
+    /**
+     *
+     */
     private View mapLayout;                   // see on the Internet
     private AMapNavi mAMapNavi;
     private AMapNaviView mAMapNaviView;

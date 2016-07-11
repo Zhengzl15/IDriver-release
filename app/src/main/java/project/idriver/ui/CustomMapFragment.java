@@ -16,10 +16,18 @@ import project.idriver.map.CustomMapUtil;
  * Created by ryan_wu on 16/1/22.
  */
 public class CustomMapFragment extends Fragment{
-    private CustomMapUtil customMap;
+    /**
+     * The fragment for custom map
+     * real control is in CustomMapUitl
+     */
+    private CustomMapUtil customMap; // the instance of CustomMapUtil
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-    {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
+        /**
+         * initialize the custom map
+         * including two views to select starting point and destination point
+         * and one button to route
+         */
         View view = inflater.inflate(R.layout.custom_map_fragment, container, false);
         WheelView startWheel = (WheelView) view.findViewById(R.id.id_custom_map_start_wheel);
         WheelView endWheel = (WheelView) view.findViewById(R.id.id_custom_map_end_wheel);

@@ -35,7 +35,7 @@ import project.idriver.map.WAMapLoaction;
  */
 public class GlobalFragment extends Fragment implements
         AMap.OnMarkerClickListener, AMap.InfoWindowAdapter, OnToggleStateChangedListener {
-    /*
+    /**
      * the top layer of navigation map, including search fragment and normal map fragment
      * */
 
@@ -51,7 +51,7 @@ public class GlobalFragment extends Fragment implements
     private final static String TAG = "global fragment";       // for debug log
 
     public GlobalFragment(){
-        /*
+        /**
          * constructor of GlobalFragment
          * */
         globalMapSearchFragment = new GlobalMapSearchFragment();
@@ -61,7 +61,7 @@ public class GlobalFragment extends Fragment implements
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        /*
+        /**
          * initialize global map view, including search view and basic map view
          * */
         if(mapLayout == null){
@@ -91,7 +91,7 @@ public class GlobalFragment extends Fragment implements
     }
 
     public void moveToLocation(LatLng location) {
-        /*
+        /**
          * move the current view to the device GPS loaction
          * for WAMapLoaction to initialize the start view
          * */
@@ -100,7 +100,7 @@ public class GlobalFragment extends Fragment implements
     }
 
     private void startNavi(Marker marker) {
-        /*
+        /**
          * start navigation when user click the <start navi> button
          * */
         Log.i(TAG, "start navi");
@@ -149,7 +149,7 @@ public class GlobalFragment extends Fragment implements
     }
 
     public void setPoiResult(List<PoiItem> poiResult){
-        /*
+        /**
          * add the search result to the basic map
          * for search fragment
          * */
@@ -162,7 +162,7 @@ public class GlobalFragment extends Fragment implements
 
     @Override
     public View getInfoWindow(final Marker marker) {
-        /*
+        /**
          * open the information window above the search result marker
          * including one <start navi> button
          * */
@@ -195,7 +195,7 @@ public class GlobalFragment extends Fragment implements
 
     @Override
     public void onToggleStateChanged(boolean state) {
-        /*
+        /**
          * switch between custom map and navigation map
          * */
         FragmentManager fm = getChildFragmentManager();
