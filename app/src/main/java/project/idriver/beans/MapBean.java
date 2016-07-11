@@ -6,6 +6,9 @@ package project.idriver.beans;
  * @Date 00:30 16/1/26
  */
 public class MapBean {
+    /**
+     * custom map bean
+     */
     private String version;
     private String is_update;
     private String ack_update;

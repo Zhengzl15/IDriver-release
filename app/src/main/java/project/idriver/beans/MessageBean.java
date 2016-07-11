@@ -4,6 +4,9 @@ package project.idriver.beans;
  * Created by ryan_wu on 16/1/26.
  */
 public class MessageBean {
+    /**
+     * the top level container
+     */
     private StoaBean stoa;
     private AtosBean atos;
 

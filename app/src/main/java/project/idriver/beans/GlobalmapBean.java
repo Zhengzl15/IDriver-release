@@ -4,6 +4,9 @@ package project.idriver.beans;
  * Created by ryan_wu on 16/1/25.
  */
 public class GlobalmapBean {
+    /**
+     * navigation message bean
+     */
     public String currentRoadName;
     public String nextRoadName;
     public String currentOrder;

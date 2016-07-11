@@ -8,6 +8,9 @@ import java.lang.reflect.Type;
  * Created by ryan_wu on 16/1/25.
  */
 public class GsonUtil {
+    /**
+     * transform bean to string and string to bean
+     */
     private static Gson gson = new Gson();
 
     // object to string

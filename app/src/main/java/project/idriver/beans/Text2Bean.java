@@ -4,6 +4,9 @@ package project.idriver.beans;
  * Created by ryan_wu on 16/1/25.
  */
 public class Text2Bean {
+    /**
+     * text2 bean
+     */
     private String position;
     private String content;
 

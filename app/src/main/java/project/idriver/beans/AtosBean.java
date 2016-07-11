@@ -5,6 +5,9 @@ package project.idriver.beans;
  */
 
 public class AtosBean {
+    /**
+     * the android to server message bean
+     */
     private CommandBean command = null;
     private GlobalmapBean globalmap = null;
     private MapBean map = null;

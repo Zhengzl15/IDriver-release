@@ -4,6 +4,9 @@ package project.idriver.beans;
  * Created by ryan_wu on 16/1/25.
  */
 public class LocalmapBean {
+    /**
+     * local map information bean
+     */
     private TargetBean target;
     private Line1Bean line1;
     private Line2Bean line2;

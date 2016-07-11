@@ -6,6 +6,9 @@ import java.nio.channels.FileChannel;
  * Created by ryan_wu on 16/1/25.
  */
 public class StoaBean {
+    /**
+     * message from server to android bean
+     */
     private StatusBean status = null;
     private LocalmapBean localmap = null;
     private GlobalmapBean globalmap = null;
